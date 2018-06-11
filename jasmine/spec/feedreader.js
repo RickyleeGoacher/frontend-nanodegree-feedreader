@@ -94,6 +94,25 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
 
+    describe('Initial Entries', function() {
+
+        //Check to see is loadFeed is called has completed its work
+        //Done set as callback
+        beforeEach(function(done) {
+            loadFeed(0, function() {
+                done();
+            });    
+         });
+
+        //Check if feed and entry length is not 0
+        it('has an entry', function() {
+            expect($('.feed').length).not.toBe(0);
+            expect($('.entry').length).not.toBe(0);
+        });
+
+    });t
+
+
     /* TODO: Write a new test suite named "New Feed Selection" */
 
         /* TODO: Write a test that ensures when a new feed is loaded
