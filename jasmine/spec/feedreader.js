@@ -110,7 +110,7 @@ $(function() {
             expect($('.entry').length).not.toBe(0);
         });
 
-    });t
+    });
 
 
     /* TODO: Write a new test suite named "New Feed Selection" */
