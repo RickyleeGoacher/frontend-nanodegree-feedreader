@@ -1,3 +1,16 @@
+### How to use
+
+* Clone the repository
+* Open the folder
+* Locate the index.html file
+* Load index.html in your browser
+* Scroll to check to see if all test are working
+
+## Dependencies
+
+[Udacity frontend feedreader](https://github.com/udacity/frontend-nanodegree-feedreader)
+[Jasmine.js](https://jasmine.github.io)
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
