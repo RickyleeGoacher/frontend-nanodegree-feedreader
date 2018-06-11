@@ -37,7 +37,7 @@ $(function() {
                 expect(feed.url).toBeDefined(); //Check URL is defined
                 expect(feed.url.length).not.toBe(0); //Check to see is the URL length is not 0
             });
-        });         
+        });
 
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
@@ -50,7 +50,7 @@ $(function() {
                 expect(feed.name.length).not.toBe(0); //Check to see if the name length is not 0
             });
         });
-                
+
     });
 
 
@@ -95,13 +95,12 @@ $(function() {
          */
 
     describe('Initial Entries', function() {
-
         //Check to see is loadFeed is called has completed its work
         //Done set as callback
         beforeEach(function(done) {
             loadFeed(0, function() {
                 done();
-            });    
+            });
          });
 
         //Check if feed and entry length is not 0
@@ -111,7 +110,6 @@ $(function() {
         });
 
     });
-
 
     /* TODO: Write a new test suite named "New Feed Selection" */
 
